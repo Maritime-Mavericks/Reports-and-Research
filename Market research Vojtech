@@ -1,0 +1,97 @@
+\chapter{Introduction}
+
+\section{Preliminary ideas}
+
+\begin{table}[h!]
+    \centering
+\begin{tabular}{|p{2cm }|c|c|c|c|c|c|c|c|c| }
+    
+\hline
+ & Snowcat & Weeder & War & Danfoss & Water & Dog & Lablador & Eva  \\
+\hline
+Originality & 5 & 6 & 6 & 1 & 7 & 6 & 8 & 5  \\
+Budget & 1 & 8  & 4 & 8 & 7 & 2 & 8 & 6 \\
+Software & 3 & 2  & 2 & 8 & 7 & 1 & 5 & 1 \\
+Electrical & 6 & 5 & 3 & 8 & 5 & 3 & 5 & 4\\
+Mechanical & 5 & 5 & 5 & 8 & 3 & 2 & 7 & 5 \\
+Scalability & 1 & 7 & 1 & 2 & 5 & 2 & 7 & 5\\
+Availability & 6 & 5 & 6 & 1 & 7 & 6 & 8 & 5 \\
+Demanding& 3 & 3 & 3 & 8 & 3 & 3 & 3 & 1 \\
+\hline
+Tolal & 37 & 50 & 37 & 56 & 45 & 34 & 57 & 40 \\
+
+
+\hline
+\end{tabular}
+ \caption{Evaluation of preliminary ideas }
+    \label{tab:Preliminary_ideas}
+
+\end{table}
+\newpage
+
+\section{Market research}
+Before the requirments and workcycle was determind  there was an analysis of  4 different companies that are producing unmanned life saving boats or buys. The analysis is consisting of short description and a table comparing technical specification. All the data will be used during the requirement writing, so that the product is capable of potential competition on the market.
+\subsection{Emilly boat }
+It is 127 cm long boat with a buy covering the top of the boat. It controlled by RC and a rope can be attached to it in order to get it back on shore after being deployed. It has 4 other modifications, police, sonar, man over board and swift water. It is powered by one motor that is also used for steering.
+\subsection{Hover Ark H3}
+It is Remote controlled Lifesaving buoy controlled by RC with the function of an automatic return in case of lost signal. It has and upgraded version with lights for better visibility. It is capable of transporting the rescued person back to the shore,but he/she has to be able grab on it. 
+\subsection{Orca H9}
+Livesaving watercraft that is the most powerful from all the products listed. It is manned vehicle that can carry a single lifeguard and carry or drag the victim back to the shore.Its is powered by one water jet engine.Compared to the jetski is more compact and needs less power.
+\subsection{Dolphin 1}
+The look and usage of this lifesaving buoy is similar to Hover Ark H3. Except that it has an extra camera in the front and is a bit larger.
+\subsection {Water Rescue Stretcher Bed}
+It is the extended and more powerful version of Dolphin 1. Between its two propellers is located the stretcher bed onto which the person can be placed and does not have hold it during the transportation.
+
+
+\begin{table}[h!]
+    \centering
+\begin{tabular}{|c|c|c|c|c|c|c|c| }
+    
+\hline
+Product/Parameters & Size[mm] & weight[kg] & power[w] & runtime@speed[km/h] & payload[kg] & control  \\
+\hline
+EMILY & 1230x355x355 & 12 &  & 13min@37 & 700 & RC+rope \\
+Dolphin 1 & 1190x850x200 & 13 & 1800 & 30min@12 & 225 & RC  \\
+Stretcher bed &1680x730x260  & 30  &  & 30min@15 & 200  & RC  \\
+Orca H9 & 910x53x32 & 23 & 4500& 80min@16  & 300 & manual \\
+Hover Ark H3 & 1030x630x20 & 13.8 &  & 45min@18 & 200 & RC+autoreturn  \\
+\hline
+
+
+
+\hline
+\end{tabular}
+ \caption{Comparison of products }
+    \label{tab:Preliminary_ideas}
+
+\end{table}
+\subsection{Conclusion}
+After the investigation was concluded that all of the products has to be navigated by person to the victim. Only Hover ark is capable of an automatic return. Therefore there is a space for extended functionality of navigation to the victim or to a lifeguard as an assistance.
+\section{ Evaluation of 8 concepts}
+
+\begin{table}[h!]
+    \centering
+\begin{tabular}{|p{2cm }|c|c|c|c|c|c|c|c|c| }
+    
+\hline
+ & Snowcat & Weeder & War & Danfoss & Water & Dog & Lablador & Eva  \\
+\hline
+Originality & 5 & 6 & 6 & 1 & 7 & 6 & 8 & 5  \\
+Budget & 1 & 8  & 4 & 8 & 7 & 2 & 8 & 6 \\
+Software & 3 & 2  & 2 & 8 & 7 & 1 & 5 & 1 \\
+Electrical & 6 & 5 & 3 & 8 & 5 & 3 & 5 & 4\\
+Mechanical & 5 & 5 & 5 & 8 & 3 & 2 & 7 & 5 \\
+Scalability & 1 & 7 & 1 & 2 & 5 & 2 & 7 & 5\\
+Availability & 6 & 5 & 6 & 1 & 7 & 6 & 8 & 5 \\
+Demanding& 3 & 3 & 3 & 8 & 3 & 3 & 3 & 1 \\
+\hline
+Tolal & 37 & 50 & 37 & 56 & 45 & 34 & 57 & 40 \\
+
+
+\hline
+\end{tabular}
+ \caption{Evaluation of preliminary ideas }
+    \label{tab:Preliminary_ideas}
+
+\end{table}
+\section{Working cycle description}
