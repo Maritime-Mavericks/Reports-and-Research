@@ -1,0 +1,95 @@
+\documentclass{article}[10pt]
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{tikz,pgfplots}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tabularx}
+\title{reasearch on GPS module}
+\author{Zuzanna Parnicka}
+\date{September 2023}
+
+
+\begin{document}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\maketitle
+\section{What to consider before choosing GPS module}
+\begin{center}
+    \begin{tabularx}{0.8\textwidth}{
+    | >{\centering\arraybackslash}X  
+    | >{\centering\arraybackslash}X | }
+
+    \hline
+    \multicolumn{2}{|c|}{List of needed requirements} \\
+    \hline
+    Type of requirement& specific of the requirement for the project\\
+    \hline
+    size&for the wrist band is has to be about 20 mm x 20 mm, for the boat there is no specification\\
+    \hline
+    update rate&1-10 Hz\\
+    \hline
+    power requirements&3.3/5V - we make a voltage regulator\\
+    \hline
+    number of channels&?\\
+    \hline
+    time to first start&?\\
+    \hline
+    antenna&best if included\\
+    \hline
+    accuracy&the more precise the better, budget is a problem, at least 3 m horizontal accuracy for the prototype\\
+    \hline
+    microcontroller compatible with&Arduino\\
+    \hline
+\end{tabularx}
+\end{center}
+
+\section{Considered options and their specifications}
+\begin{enumerate}
+    \item Spark Fun
+    \item NEO - 6
+    \item BN-220
+\end{enumerate}
+
+\section{Comparison}
+\begin{center}
+    \begin{tabularx}{0.8\textwidth}{
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X  
+    | >{\centering\arraybackslash}X | }
+
+    \hline
+    requirement&Spark Fun&NEO - 6&BN-220 \\
+    \hline
+    size&&&\\
+    \hline
+    update rate&&&\\
+    \hline
+    power&&&\\
+    \hline
+    desired number of channels&&&\\
+    \hline
+    time to first start&&&\\
+    \hline
+    antenna&&&\\
+    \hline
+    antenna&&&\\
+    \hline
+    accuracy of min 3 m&X&X&X\\
+    \hline
+    compatible with Arduino&X&X&X\\
+    \hline
+    budget&&&\\
+    \hline
+\end{tabularx}
+\end{center}
+
+   
+   
+
+\end{document}
+
