@@ -2,7 +2,7 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage[margin=1in]{geometry}
 \usepackage{amsfonts, amssymb, amsmath}
-\usepackage{tikz,pgfplots}
+\usepackage{tikz,pgfplots,hyperref}
 \usepackage{float}
 \usepackage{multirow}
 \usepackage{tabularx}
@@ -49,9 +49,17 @@
 
 \section{Considered options and their specifications}
 \begin{enumerate}
-    \item Spark Fun
-    \item NEO - 6
-    \item BN-220
+    \item Spark Fun RTK-SMA\\
+    The SparkFun RTK-SMA GPS module is very precise, up to 0.01m in horizontal accuracy. However,
+    the price is 250 \$ which is out of the semster project budget. The module is advancted and can do RTK. 
+    However, it is not needed for the prototype of the project.
+    link to the datasheet: \url{https://cdn.sparkfun.com/assets/f/8/d/6/d/ZED-F9P-02B_DataSheet_UBX-21023276.pdf?_gl=1*150sgcj*_ga*MTAxMTI1MDc4OS4xNjgxNzE5OTE5*_ga_T369JS7J9N*MTY5Njg3NjM0Mi40LjEuMTY5Njg3NjU1OS42MC4wLjA}
+       
+    \item NEO - 6\\
+    \item BN-220\\
+    The needed requirements are fullfilled despite the price. Which for 1000 krones budget is too high if the shipping price is added.
+link to datasheet: \url{https://files.banggood.com/2016/11/BN-220%20GPS+Antenna%20datasheet.pdf}
+
 \end{enumerate}
 
 \section{Comparison}
@@ -63,19 +71,17 @@
     | >{\centering\arraybackslash}X | }
 
     \hline
-    requirement&Spark Fun&NEO - 6&BN-220 \\
+    requirement&Spark Fun RTK-SMA&NEO - 6&BN-220 \\
     \hline
-    size&&&\\
+    size&X&&X\\
     \hline
-    update rate&&&\\
+    update rate&X&&X\\
     \hline
-    power&&&\\
+    power&X&&X\\
     \hline
-    desired number of channels&&&\\
+    desired number of channels&&&72\\
     \hline
-    time to first start&&&\\
-    \hline
-    antenna&&&\\
+    time to first start (cold/warm)&-148dBm/-157dBm&&26s/25s\\
     \hline
     antenna&&&\\
     \hline
@@ -83,13 +89,12 @@
     \hline
     compatible with Arduino&X&X&X\\
     \hline
-    budget&&&\\
+    budget&not in the budget&&about 150 krones but expensive shipping\\
     \hline
 \end{tabularx}
 \end{center}
 
-   
-   
+
 
 \end{document}
 
