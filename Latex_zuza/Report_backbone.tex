@@ -1,0 +1,47 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}%characters and symbols from different languages
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{tikz,pgfplots,hyperref}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{natbib}%references package
+
+
+\setlength{\arrayrulewidth}{0.7mm}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.5}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\title{Temporary Tigers\\
+{\Large University of Southern Denmark}}
+\author{ 5 Tigers }
+\date{December 2023}
+
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+This work is summarising development process of an autonomous vehicle.
+
+\chapter*{Dedication}
+Hardworking group of students that decided to become tigers, (o)hm pardon, engineers
+
+\chapter *{Acknowledgements}
+\include{Introduction}
+\include{Theoretical_analysis}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

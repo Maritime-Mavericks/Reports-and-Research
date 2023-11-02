@@ -1,0 +1,104 @@
+
+\section{Theoretical analysis}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\maketitle
+\section{What to consider before choosing GPS module}
+\begin{center}
+    \begin{tabularx}{0.8\textwidth}{
+    | >{\centering\arraybackslash}X  
+    | >{\centering\arraybackslash}X | }
+
+    \hline
+    \multicolumn{2}{|c|}{List of needed requirements} \\
+    \hline
+    Type of requirement& specific of the requirement for the project\\
+    \hline
+    size wristband & max 30 mm x 30 mm\\
+    \hline 
+    size boat & max 60mm X 60mm\\
+    \hline
+    update rate&1-10 Hz\\
+    \hline
+    power requirements&3.3/5V - we make a voltage regulator\\
+    \hline
+    number of channels&?\\
+    \hline
+    time to first start&?\\
+    \hline
+    antenna&best if included\\
+    \hline
+    accuracy&the more precise the better, budget limitation , at least 3 m horizontal accuracy \\
+    \hline
+    microcontroller compatible with&Arduino\\
+    \hline
+\end{tabularx}
+\end{center}
+
+\section{Considered options and their specifications}
+\begin{enumerate}
+    \item Spark Fun RTK-SMA\\
+    The SparkFun RTK-SMA GPS module is very precise, up to 0.01m in horizontal accuracy. However,
+    the price is 250 \$ which is out of the semster project budget. The module is advancted and can do RTK. 
+    However, it is not needed for the prototype of the project.
+    link to the datasheet: \url{https://cdn.sparkfun.com/assets/f/8/d/6/d/ZED-F9P-02B_DataSheet_UBX-21023276.pdf?_gl=1*150sgcj*_ga*MTAxMTI1MDc4OS4xNjgxNzE5OTE5*_ga_T369JS7J9N*MTY5Njg3NjM0Mi40LjEuMTY5Njg3NjU1OS42MC4wLjA}
+       
+    \item NEO - 6\\
+    Due to its low price relative to the functionalities it offers and compatibility with arduino, 
+    this module is indisputable choice for those who want to learn how GPS works.This module is based on NEO-6M chip from U-blox. 
+    It has a Pover Save Mode that makes it suitable for a wristband locator. It is also the smallest chip amnog the others listed in a  \autoref{tab:Gps modules}
+    It includes antenna with sensitivity patch of 161dBm.
+    \item BN-220\\
+    The needed requirements are fullfilled despite the price. Which for 1000 krones budget is too high if the shipping price is added.
+link to datasheet: \url{https://files.banggood.com/2016/11/BN-220%20GPS+Antenna%20datasheet.pdf} 
+\cite{1}
+
+
+
+\end{enumerate}
+
+
+\section{Comparison}
+\begin{center}
+    \begin{table}[h!]
+    \begin{tabularx}{0.8\textwidth}{
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X  
+    | >{\centering\arraybackslash}X | }
+
+    \hline
+    requirement&Spark Fun RTK-SMA&NEO - 6&BN-220 \\
+    \hline
+    size&X&X&X\\
+    \hline
+    update rate&X&&X\\
+    \hline
+    power&X&&X\\
+    \hline
+    desired number of channels&&&72\\
+    \hline
+    time to first start (cold/warm)&-148dBm/-157dBm&&26s/25s\\
+    \hline
+    antenna&&&\\
+    \hline
+    accuracy of min 3 m&X&X&X\\
+    \hline
+    compatible with Arduino&X&X&X\\
+    \hline
+    budget&not in the budget&&about 150 krones but expensive shipping\\
+    \hline
+\end{tabularx}
+ \caption{GPS modules comparison }
+        \label{tab:Gps modules}
+\end{table}
+\end{center}
+
+
+
+
+
+
+
