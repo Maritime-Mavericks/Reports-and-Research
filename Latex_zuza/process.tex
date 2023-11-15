@@ -1,0 +1,44 @@
+\documentclass{article}[10pt]
+\usepackage[utf8]{inputenc}%characters and symbols from different languages
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{tikz,pgfplots,hyperref}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{biblatex}% references package
+\title{process}
+\author{Zuzanna Parnicka}
+\date{15 November 2023}
+
+
+\begin{document}
+\maketitle
+
+This document purpose is to describe the working process of the system.\\
+\begin{enumerate}
+    \item We send the signal from the bracelet to the boat that it has to start.
+    \item We are sending coordinates every ? sec during the process from the bracelet to the boat (bracelet coordinates). (sending and receiving is done by RF modules in bracelet and boat)
+    \item Boat receives the coordinates.
+    \item Boat starts riding.
+    \item Boat is receiving coordinates from the bracelet every ? sec.
+    \item Boat is aiming for the bracelet position.
+    \item Boat is checking all the time its position and compering it to the received coordinates (using GPS, compass). It is calculating the angle. Thanks to it, it knows which side to turn to, to get back on the track.
+    \item If the boat is going wrong direction, then it is getting information from the program. The program is turning left or right motor stronger/weaker and making the boat turn. 
+    \item Point 7 and 8 are repeated all the time during the process of getting to the final coordinates.
+    \item During the ride the sensor/sonda checks if there is something on the boat’s way.
+    \item If point 10 is true, then the program needs to make the boat go other way, so it avoids the obstacle.
+    \item When the boat gets to the destination, the program should send information to the motors and stop them.
+    \item When the sensor/button on the boat gets signal/is pressed after certain amount of time the boat should start moving again.
+    \item The boat is going through the almost same process as before. However, it knows the coordinates of the beginning position, so it is going there. 
+    \item During the way back the sonar is checking if there are any obstacles on the way. If they are they need to be avoided as mentioned above.
+    
+\end{enumerate}
+
+
+
+
+
+\end{document}
