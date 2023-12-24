@@ -1,0 +1,50 @@
+\documentclass{article}[10pt]
+\usepackage[utf8]{inputenc}%characters and symbols from different languages
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{tikz,pgfplots,hyperref}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{biblatex}% references package
+\title{Appendix}
+
+\begin{document}
+\maketitle
+%here we make tabkes from davids managment plan
+\begin{center}
+    
+    \begin{tabularx}{0.8\textwidth}{
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X 
+    | >{\centering\arraybackslash}X  
+    | >{\centering\arraybackslash}X | }
+
+    \hline
+    &&multicolumn{5}{|c|}{Severity}\\
+    \hline
+    Probability of Occurence&&Negligible&Minor&Serious&Critical&Catastrophic\\
+    \hline
+    &Frequent&&&&&\\
+    \hline
+    &Probable&&&&&\\
+    \hline
+    &Occasional&&&&&\\
+    \hline
+    &Remote&&&&&\\
+    \hline
+    &Improbable&&&&&\\
+    \hline
+
+ \caption{Risk Assesibility}
+        \label{tab:Figure}
+    \end{tabularx}
+\end{center}
+
+
+\end{document}
