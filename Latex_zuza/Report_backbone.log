@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.2)  30 NOV 2023 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  25 DEC 2023 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Vojtech/OneDrive - Syddansk Universitet/Documents/UNI/3rd Semester/SPRO3/Github/Report/Reports-and-Research/Latex_zuza/Report_backbone"
-(c:/Users/Vojtech/OneDrive - Syddansk Universitet/Documents/UNI/3rd Semester/SPRO3/Github/Report/Reports-and-Research/Latex_zuza/Report_backbone.tex
+**"c:/Users/HP/OneDrive/studies/sem 2/project 2/github/Reports-and-Research/Latex_zuza/Report_backbone.tex"
+(c:/Users/HP/OneDrive/studies/sem 2/project 2/github/Reports-and-Research/Latex_zuza/Report_backbone.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (c:/texlive/2023/texmf-dist/tex/latex/base/report.cls
@@ -516,37 +516,56 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen291
 \TX@cols=\count317
 \TX@ftn=\toks49
+) (c:/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks50
+\minrowclearance=\skip58
+\rownum=\count318
 ) (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip58
-\bibsep=\skip59
+\bibhang=\skip59
+\bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count318
+\c@NAT@ctr=\count319
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
+\l__color_backend_stack_int=\count320
 \l__pdf_internal_box=\box69
-) (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux))
+) (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux
+
+LaTeX Warning: Label `tab:Gps modules' multiply defined.
+
+) (./boat_interview.aux) (./Appendix.aux
+
+LaTeX Warning: Label `tab:Figure' multiply defined.
+
+
+LaTeX Warning: Label `tab:Figure' multiply defined.
+
+
+LaTeX Warning: Label `tab:Figure' multiply defined.
+
+))
 \openout1 = `Report_backbone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -584,17 +603,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count321
 \scratchdimen=\dimen292
 \scratchbox=\box70
-\nofMPsegments=\count321
-\nofMParguments=\count322
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count323
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count324
 \MPscratchDim=\dimen293
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks51
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks52
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -603,17 +622,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 23.
+ on input line 24.
 
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
 (./Report_backbone.out) (./Report_backbone.out)
 \@outlinefile=\write4
 \openout4 = `Report_backbone.out'.
 
-<SDU_logo.png, id=71, 398.4486pt x 106.4778pt>
+<SDU_logo.png, id=75, 398.4486pt x 106.4778pt>
 File: SDU_logo.png Graphic file (type png)
 <use SDU_logo.png>
-Package pdftex.def Info: SDU_logo.png  used on input line 27.
+Package pdftex.def Info: SDU_logo.png  used on input line 28.
 (pdftex.def)             Requested size: 170.71652pt x 45.62045pt.
  [1
 
@@ -621,7 +640,7 @@ Package pdftex.def Info: SDU_logo.png  used on input line 27.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \chapter
+l.43 \chapter
              *{Dedication} [1
 
 ] [2
@@ -649,7 +668,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.50 \newpage
              ]
-Overfull \hbox (21.90448pt too wide) in paragraph at lines 68--84
+Overfull \hbox (21.90437pt too wide) in paragraph at lines 68--84
  [][] 
  []
 
@@ -662,47 +681,111 @@ l.101     \item S
 \openout2 = `Theoretical_analysis.aux'.
 
  (./Theoretical_analysis.tex
-Overfull \hbox (88.79843pt too wide) in paragraph at lines 42--47
+Overfull \hbox (88.79843pt too wide) in paragraph at lines 46--51
 \OT1/cmtt/m/n/10 assets / f / 8 / d / 6 / d / ZED-[]F9P-[]02B _ DataSheet _ UBX-[]21023276 . pdf ? _gl = 1*150sgcj* _ ga*MTAxMTI1MDc4OS4xNjgxNzE5OTE5* _
+ []
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.101 \end{center}
+                  
+
+
+
+]
+Overfull \hbox (153.10391pt too wide) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/10 link: []$\OT1/cmtt/m/n/10 https : / / medium . com / @epoxyglue / everything-[]you-[]need-[]to-[]know-[]about-[]electronic-[]epoxy-[]adhesive-[]glue-[]e550b5e3b517$[] 
+ []
+
+
+Overfull \hbox (39.35487pt too wide) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/10 link: []$\OT1/cmtt/m/n/10 https : / / www . thomasnet . com / articles / chemicals / Silicon-[]Electronics-[]Casting-[]Applications/$[] 
+ []
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.135               \item E
+                           asy to use.] [11]) [12]
+\openout2 = `boat_interview.aux'.
+
+ (./boat_interview.tex
+Chapter 2.
+) [13
+
+
+
+
+]
+\openout2 = `Appendix.aux'.
+
+ (./Appendix.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [9
+[14
 
 
 
-] [10
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.3}) has been already used, duplicate ignored
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.47 \include{Theoretical_analysis}
-                                   ] (./Report_backbone.bbl) [11
+l.115 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.115 
+      ]) [15
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.50 \include{Appendix}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.50 \include{Appendix}
+                       ] (./Report_backbone.bbl) [16
 
 
 
-] (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux))
+] (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux) (./boat_interview.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Report_backbone.out' has not changed.
-(rerunfilecheck)             Checksum: 7EED689B542C08E917AD21A68681EB72;2460.
+(rerunfilecheck)             Checksum: AB7416D65E5F36B82E40A79B94D7E85A;2643.
  ) 
 Here is how much of TeX's memory you used:
- 31238 strings out of 474928
- 725212 string characters out of 5763562
- 1935785 words of memory out of 5000000
- 52193 multiletter control sequences out of 15000+600000
+ 31386 strings out of 474927
+ 727684 string characters out of 5763541
+ 1939785 words of memory out of 5000000
+ 52298 multiletter control sequences out of 15000+600000
  563347 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,89p,855b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Report_backbone.pdf (12 pages, 110404 bytes).
+ 84i,12n,89p,1074b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Report_backbone.pdf (17 pages, 172277 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 97 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
