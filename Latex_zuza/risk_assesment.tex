@@ -48,23 +48,99 @@ Below mentioned standards are taken into account.
         \item Programming: Hritik Roy Chowdhury
         \item Mechnical: Yieng Liu
     \end{enumerate}
-    \item Reviewing tasks
+    \item Reviewing tasks\\
     Each risk is assesed on rolling basis as new and possible hazardous situations are indentified throughout the project design and testing phases.
-    The risk's acceptability will be assesed using the criteria matrix from Appendix (Figure X).
+    The risk's acceptability (including risks with unpredictable probability of occurence and those of which harm cannot be estimated) will be assesed 
+    using the criteria matrix from Appendix (Figure X).
     \begin{enumerate}
-        \item risk 1
-        \item risk 2
+        \item Waterproofing failure.\\
+        Primary compartment water leakage can cause boat drowning, loss of integrity and secondary compartment water leakage which would cause 
+        electronic components damage.
+        The primary compartment water leakage is not neccessary to cause harm to the user. However, the secondary compartment water leakage would be a harm to the user,
+        and could result in temporary impairment requiring professional medical intervention, due to electronics having contact with water.\\
+        Solution to prevent water leakage:
+        \begin{enumerate}
+        \item Use of silicon on all the posible water leakage corners, holes.
+        \item Testing the primary and secondary compartment in different conditions and times to see if/how the water leakage is changing or is it even apeparing.
+        \item Choosing as many waterproof components as possible.
+        \end{enumerate}
+        Risk Assessment: Occasional - Serious.
+        \item Navigation system failure.\\
+        Navigation system consists of: GPS module, magnetometer and accelometer. The failure could be caused by interfeering magnetic 
+        fields, which could cause the magnetometer to not calibrate properly. \\
+        Solution to prevent the navigation system failure:
+        \begin{enumerate}
+            \item Putting navigation components as far as possible from devices creating magnetic fields.
+            \item Findign a solution for distance beetwen servo and magnetometer.
+            \item Testing in environments with different magnetic fields and noticing impact on the system.
+        \end{enumerate}
+        Risk Assessment: Occasional - Negligible.
+        \item Communication failure.\\
+        RF module in the project is meant to send and receive coordinates of the bracelet. The problem could be the distance. 
+        The module specifications need to fulfill the product requirements. If there was a problem with distance it might be that 
+        the boat does not receive location it should go to. Another problem could be that the RF signal is interrupt by environment.\\
+        Solution to prevent communication failure:
+        \begin{enumerate}
+            \item Choosing RF module in respect to user requirements.
+            \item Testing RF in different circumstances. 
+        \end{enumerate}
+        Risk Assessment: Occasional - Negligible. 
+        \item Motor failure.\\
+        If the motor fails, the boat is not able to drive. Therefore, the goal of the project is not satisfied. The boat cannot get to the
+        bracelet location or help to get back to the shore. The motor failure can cause damage to limbs, which is harmfull to the user.
+        Motor failure can be caused by overheat, kelp/rocks, seaweed getting stuck in the propellers.\\
+        Solution to motors failure:
+        \begin{enumerate}
+            \item One of the best solutions is choosing motors that will be able to satisfy product requirements and at the same time, 
+            choosing the motors that are less possible to fail.
+        \end{enumerate}
+        Risk Assessment: Remote - Minor.
+        \item Battery overheating or explosion.\\
+        Battery overheating or explosion can be caused by overcharging, damage, exposure to high temperature. Battery overheating 
+        or explosion could be a harm to the operator. It could cause serious injury or less serious harm. However, it 
+        is hazardous to life of the product or the user.\\
+        Solution to battery overheating or explosion:
+        \begin{enumerate}
+            \item The battery will be cooled by being in the water.
+            \item Overcharging the battery needs to be taken into account, while preparing and testing the boat.
+            \item Overall damage can be prevented by being carefull with all the electronics components.
+        \end{enumerate}
+        Risk Assessment: Remote - Serious/Critical.
+        \item Unexpected electronic components failure.\\
+        Unexpected electronics component failure can be anything. E.g. overheating, damaging the component by accident. It is not possible 
+        to find solutions for this problem. In the testing phase, components can be replaced or repaired. However, when something happens while 
+        the working process, only the emergency stop can help. However, this issue is possible to prevent/make it less possible to appear 
+        thanks to many tests. 
+        Risk Assessment: Remote/Occasional - Negligible.
+        \item Failure of safety features.\\
+        Safety features for the project are: emergency stop, handle for the user. It might be that the emergency stop does not work for 
+        unknown reason during the work cycle, even though it worked while testing. The same can happen with the handle. The handle is made to
+        let the program know, if the user is holding the boat, if the handle is not held the boat stops moving and waits for the signal. If 
+        this feature stops working, the boat could drive without the user and leave them somewhere on the water, or harm the user.\\
+        Solution to failure of safety features:
+        \begin{enumerate}
+            \item Having more than one safety feauture.
+            \item Testing safety feautures in different environments.
+            \item Waterproofing safety features.
+        \end{enumerate}
+        Risk Assessment: Remote/Occasional - Minor/Serious.
+        \item Managment problems. \\
+        Managment problems can appear as not sufficient time managment, uneven tasks distribution, miscommunication in the group, budget overrun, 
+        need to wait for some tasks to be done to be able to start other tasks.\\
+        Solution to managment problems:
+        \begin{enumerate}
+            \item Choosing group leader.
+            \item Choosing leader of each project part (electrical, mechanical, programming).
+            \item Making a timeplan in the begging and adjusting it during the project work.
+            \item Making a budget plan.
+            \item Using recycled components from university, home, companies.
+        \end{enumerate}
+        Risk Assessment: Probable - Negligible.
     \end{enumerate}
-    \item Risk Acceptability, including risks with unpredictable probability of occurence and those of which harm cannot be estimated.
-    The criteria is based on the matrix (Figure X) in Appendix.
-    \begin{enumerate}
-        \item risk 1
-        \item risk 2
-    \end{enumerate}
-    \item Verification activities.
+    \item Verification activities\\ 
     Verification of the above data is done via data from manufacturer, data from typical operations of similar purpose and calibre, as well as data generated while testing the device itself.
     Figure X in Appendix.
-    \item Review of production and postproduction information.
+    \item Review of production and postproduction information. 
     Because the product has a very short life cycle, this section is not applicable. However, data retained from any testng during the design and
     prototyping phase will be reviewed and used for risks.
 
