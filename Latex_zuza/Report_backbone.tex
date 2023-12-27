@@ -9,6 +9,8 @@
 \usepackage{multirow, setspace}
 \usepackage{tabularx,pdfpages}
 \usepackage{xcolor,colortbl}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{natbib}%references package
 
 
@@ -49,7 +51,13 @@ Hardworking group of students that decided to become tigers, (o)hm pardon, engin
 \include{Theoretical_analysis} %section for introduction
 \include{boat_interview} %section for introduction
 \include{voltage_regulator_bracelet} %section for electronics
+\include{bracelet} %section for mechanical
+\include{box_inside_the_boat}%section for mechanical
 \include{Appendix} %chapter
+\includepdf[pages=-]{bracelet_technical.pdf}
+\includepdf[pages=-]{brackets_12x15.pdf}
+\includepdf[pages=-]{brackets_15x15.pdf}
+\includepdf[pages=-]{frame_box.pdf}
 \bibliographystyle{plain}
 \bibliography{references}
 
