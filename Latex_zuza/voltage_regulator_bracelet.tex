@@ -1,4 +1,4 @@
-\onehalfspacing
+
 \section{Voltage regulator for bracelet}
 The voltage regulator is needed to regulate voltage from the battery to GPS module and RF module in the bracelet.
 Firstly, the prototype was done in the lab. When the test was done and succesfull, it was implememnted in the PCB for the bracelet.\\
@@ -24,3 +24,24 @@ Adding them:
 \[120mA+16.2mA = 136mA\]
 \[R_{L}=\frac{V}{I_{max}}=\frac{3.27V}{136mA} = 24.0444 \Omega\]
 The resistor available in the lab was 24$\Omega$ and measured to be 24.2$\Omega$.\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{voltagereg_circuit.png}
+    \caption{Voltage Regulator Testing Circuit}
+    \label{Figure: Voltage Regulator Testing Circuit}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{testin_voltagereg_circuit.png}
+    \caption{Voltage Regulator Circuit}
+    \label{Figure: Voltage Regulator Circuit}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{voltagereg.jpg}
+    \caption{Voltage Regulator}
+    \label{Figure: Voltage Regulator}
+\end{figure}
+
+After soldering the components, there was a short cicuit. However, with use of multimeter it was easily found and repaired. 
+The voltage output was as expected and needed by the modules.

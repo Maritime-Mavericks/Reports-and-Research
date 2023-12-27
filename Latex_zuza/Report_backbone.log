@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  26 DEC 2023 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.27)  26 DEC 2023 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,6 +497,8 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count316
 \multirow@dima=\skip55
 \bigstrutjot=\dimen284
+) (c:/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
@@ -516,26 +518,61 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen291
 \TX@cols=\count317
 \TX@ftn=\toks49
+) (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count318
+\calc@Bcount=\count319
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count320
+\calc@Cskip=\skip60
+) (c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen294
+\ESO@tempdimb=\dimen295
+)
+\AM@pagewidth=\dimen296
+\AM@pageheight=\dimen297
+\AM@fboxrule=\dimen298
+ (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count321
+\AM@pagebox=\box69
+\AM@global@opts=\toks50
+\AM@pagecnt=\count322
+\AM@toc@title=\toks51
+\AM@lof@heading=\toks52
+\c@AM@survey=\count323
+\AM@templatesizebox=\box70
 ) (c:/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks50
-\minrowclearance=\skip58
-\rownum=\count318
+\everycr=\toks53
+\minrowclearance=\skip61
+\rownum=\count324
 ) (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip59
-\bibsep=\skip60
+\bibhang=\skip62
+\bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count319
+\c@NAT@ctr=\count325
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count320
-\l__pdf_internal_box=\box69
+\l__color_backend_stack_int=\count326
+\l__pdf_internal_box=\box71
 ) (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux
 
 LaTeX Warning: Label `tab:Gps modules' multiply defined.
 
-) (./boat_interview.aux) (./Appendix.aux
+) (./boat_interview.aux) (./voltage_regulator_bracelet.aux) (./Appendix.aux
 
 LaTeX Warning: Label `tab:Figure' multiply defined.
 
@@ -603,17 +640,17 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen292
-\scratchbox=\box70
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen293
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count327
+\scratchdimen=\dimen299
+\scratchbox=\box72
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen300
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks55
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -629,7 +666,16 @@ Package hyperref Info: Link coloring OFF on input line 24.
 \@outlinefile=\write4
 \openout4 = `Report_backbone.out'.
 
-<SDU_logo.png, id=75, 398.4486pt x 106.4778pt>
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+<SDU_logo.png, id=79, 398.4486pt x 106.4778pt>
 File: SDU_logo.png Graphic file (type png)
 <use SDU_logo.png>
 Package pdftex.def Info: SDU_logo.png  used on input line 29.
@@ -676,8 +722,8 @@ Overfull \hbox (21.90437pt too wide) in paragraph at lines 68--84
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.101     \item S
-                 hould contain a stretcher bed between the two kiels.] [6] [7]) [8{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+l.97 \subsection
+                {Need to have requirements}] [6] [7]) [8{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 \openout2 = `Theoretical_analysis.aux'.
 
  (./Theoretical_analysis.tex
@@ -708,8 +754,8 @@ Overfull \hbox (39.35487pt too wide) in paragraph at lines 127--128
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.135               \item E
-                           asy to use.] [11]) [12]
+l.128               \item I
+                           t can withstand mechanical damage.] [11]) [12]
 \openout2 = `boat_interview.aux'.
 
  (./boat_interview.tex
@@ -720,6 +766,59 @@ Chapter 2.
 
 
 ]
+\openout2 = `voltage_regulator_bracelet.aux'.
+
+ (./voltage_regulator_bracelet.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+<voltagereg_circuit.png, id=241, 425.79076pt x 317.988pt>
+File: voltagereg_circuit.png Graphic file (type png)
+<use voltagereg_circuit.png>
+Package pdftex.def Info: voltagereg_circuit.png  used on input line 29.
+(pdftex.def)             Requested size: 338.5863pt x 252.86717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
+
+ []
+
+<testin_voltagereg_circuit.png, id=242, 449.2785pt x 317.988pt>
+File: testin_voltagereg_circuit.png Graphic file (type png)
+<use testin_voltagereg_circuit.png>
+Package pdftex.def Info: testin_voltagereg_circuit.png  used on input line 35.
+(pdftex.def)             Requested size: 338.5863pt x 239.6549pt.
+[14
+
+
+
+]
+<voltagereg.jpg, id=252, 2023.56pt x 1138.2525pt>
+File: voltagereg.jpg Graphic file (type jpg)
+<use voltagereg.jpg>
+Package pdftex.def Info: voltagereg.jpg  used on input line 41.
+(pdftex.def)             Requested size: 338.5863pt x 190.44354pt.
+ [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.45 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.45 
+      <./voltagereg_circuit.png> <./testin_voltagereg_circuit.png>]) [16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.51 \include{voltage_regulator_bracelet}
+                                          %section for electronics <./voltagereg.jpg>]
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
@@ -732,7 +831,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./bracelet_technical.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<bracelet_technical.pdf, id=267, 1195.01462pt x 845.0471pt>
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf>
+Package pdftex.def Info: bracelet_technical.pdf  used on input line 115.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./bracelet_technical.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf>
+Package pdftex.def Info: bracelet_technical.pdf  used on input line 115.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./bracelet_technical.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./bracelet_technical.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<bracelet_technical.pdf, id=270, page=1, 1195.01462pt x 845.0471pt>
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf, page 1>
+Package pdftex.def Info: bracelet_technical.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf, page 1>
+Package pdftex.def Info: bracelet_technical.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+[17
 
 
 
@@ -741,27 +875,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.115 
-      
+l.115 \includepdf[page=-]{bracelet_technical}
+                                             
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.115 
-      ]) [15
-pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.51 \include{Appendix}
-                       
+l.115 \includepdf[page=-]{bracelet_technical}
+                                             ] [18
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.51 \include{Appendix}
-                       ] (./Report_backbone.bbl) [16
+l.115 \includepdf[page=-]{bracelet_technical}
+                                             ]
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf, page 1>
+Package pdftex.def Info: bracelet_technical.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf, page 1>
+Package pdftex.def Info: bracelet_technical.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+File: bracelet_technical.pdf Graphic file (type pdf)
+<use bracelet_technical.pdf, page 1>
+Package pdftex.def Info: bracelet_technical.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+ [19 <./bracelet_technical.pdf>]) [20
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.52 \include{Appendix}
+                        %chapter] (./Report_backbone.bbl) [21
 
 
 
-] (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux) (./boat_interview.aux) (./Appendix.aux))
+] (./Report_backbone.aux (./Introduction.aux) (./Theoretical_analysis.aux) (./boat_interview.aux) (./voltage_regulator_bracelet.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -771,21 +918,21 @@ L3 programming layer <2023-08-29>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Report_backbone.out' has not changed.
-(rerunfilecheck)             Checksum: AB7416D65E5F36B82E40A79B94D7E85A;2643.
+(rerunfilecheck)             Checksum: 1C05B92855E3CF9D5BB9CBC92F01E2BD;2857.
  ) 
 Here is how much of TeX's memory you used:
- 31386 strings out of 474927
- 727684 string characters out of 5763541
- 1939785 words of memory out of 5000000
- 52298 multiletter control sequences out of 15000+600000
+ 32365 strings out of 474927
+ 745868 string characters out of 5763541
+ 1938785 words of memory out of 5000000
+ 53229 multiletter control sequences out of 15000+600000
  563347 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,1074b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Report_backbone.pdf (17 pages, 172277 bytes).
+ 84i,17n,89p,1100b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Report_backbone.pdf (22 pages, 494390 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 123 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

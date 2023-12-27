@@ -6,8 +6,8 @@
 \usepackage{amsfonts, amssymb, amsmath}
 \usepackage{tikz,pgfplots,hyperref}
 \usepackage{float}
-\usepackage{multirow}
-\usepackage{tabularx}
+\usepackage{multirow, setspace}
+\usepackage{tabularx,pdfpages}
 \usepackage{xcolor,colortbl}
 \usepackage{natbib}%references package
 
@@ -22,7 +22,7 @@
  top=20mm,
  }
  \begin{document}
- 
+ \onehalfspacing
 \begin{titlepage}
     \centering
     \vfill
@@ -45,10 +45,11 @@ This work is summarising development process of an autonomous vehicle.
 Hardworking group of students that decided to become tigers, (o)hm pardon, engineers
 
 \chapter *{Acknowledgements}
-\include{Introduction}
-\include{Theoretical_analysis}
-\include{boat_interview}
-\include{Appendix}
+\include{Introduction} %chapter
+\include{Theoretical_analysis} %section for introduction
+\include{boat_interview} %section for introduction
+\include{voltage_regulator_bracelet} %section for electronics
+\include{Appendix} %chapter
 \bibliographystyle{plain}
 \bibliography{references}
 
