@@ -1,0 +1,73 @@
+\documentclass{article}[10pt]
+\usepackage[utf8]{inputenc}%characters and symbols from different languages
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{tikz,pgfplots,hyperref}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{biblatex}% references package
+
+
+\begin{document}
+\section{Calibration Tower}
+The calibration tower is a mechanical structure built for boat's instruments' concentric automatic calibration.  
+\begin{enumerate}
+    \item Calibration needs\\
+The need of a calibration tower originally arises from issues encountered in the magnetometer's software. The magnetometer’s output vectors form a circle centered at random positions within a cartesian coordinate plane. To determine the center of the vector circle at startup, the magnetometer must be moved with at least two degrees of freedom before starting motor functions. This is so that the subsequent positions of the directional vectors could be found relative to the center of the coordinate system. The controlled movement of the magnetometer requires a mechanical holder that allows sensor to rotate precisely in a circle. Due to possible additional sensors from later projects, the holder needs to be able to scale to accommodate more electronic instruments.
+During preliminary testing of prototypes, the magnetometer’s readings are uninterpretable when taken close to any reasonably strong electromagnetic fields, such as the servo motor used for the calibration itself. It is therefore determined that the sensor needs to be 20cm away form the servo motor to avoid interference. This number is later changed to 12cm resulting from more precise testing done because of the waterproofing compartment’s dimensional limits.
+
+    \item Instruments installation and accessibility\\
+    Three of the main risk factors considered for the tower’s operations are structural stability, repair \& accessibility, rust resistance. The risks are balanced according to the risk assessment criteria[table number].
+    \begin{enumerate}
+        \item Structural stability \\
+risks are minimized by creating an integrated tower that contacts the main support structure in multiple, redundant positions, allowing for only one degree of freedom of least possible movements, reserved only for extraction. 
+The moving members of the tower are constrained using concentric circular slots to ensure maximum contact between the spinning disks and the fixed boat structures to only allow for rotational movements. To avoid tangling, moving wires are threaded through the rotating shaft to the base of the tower and given just enough slack to allow for 360 degrees rotation.
+\item Repair \& accessibility
+    
+The structure is designed for easy dismemberment and component replacement to two different extents.
+Top level disassembly of the tower requires no special tools or complicated maneuvering of mechanical components. The user simply takes any piece of flat material of reasonable rigidity such as a home key, insert the flat edge into the top and slightly twist the lock to unlock the tower top. From there, the user can simply unplug the magnetometer from wires that have been fixed in the mechanical socket slot. 
+If required, simply lift the tower by its locking lid, and the entire structure will slide out of the tower slot, and upon the same unlock motion, the tower can be entirely dismembered into its constituent parts. 
+Designs for repair \& accessibility are made to accommodate scaling of number and sizes of components. The tower dimensions are easily modifiable, and more slots can be added for any components of similar footprints and connection requirements. 
+\item Salt-water resistance\\
+All components of the tower are designed to be manufactured with acrylic and not materials that may expand with salt water, such as metals and wood (MDF). This includes the component thickness as well as their specific ability to flex. This is especially reflected in the design of the locking mechanism and the interlocking rotating shaft, where MDF will fail due to mechanical stress if cut to the same laser-cutting pattern as the acrylic design. This is determined experimentally.  
+
+    \end{enumerate}
+
+    \item Design process\\
+    \begin{enumerate}
+        \item Overall Design\\
+        The design process uses an inductive approach to minimize the waste of space in the waterproof compartment. Using the least possible distance and the width of the compartment, the maximum size of the tower is deduced. With the principle of not compromising the distance between the sensor and the motor, the components are spaced as close as is deemed safe by testing.
+        \item Lock mechanism\\
+The lock mechanism requires spring tension to minimize the possibility of a slippage, which will likely result in the tower’s malfunction. To circumvent the use of small metal springs that maybe corroded on long term standby, the lock is designed with a compliant mechanism sandwiched between two supporting pieces so that the lock itself does not sustain any lateral or rotational forces but allow them to be distributed onto the slots of the sandwiching pieces, ensuring minimal load onto the compliant springs. 
+The main difficulties in the design arise from the limited dimensions and flexibility of acrylic as a material. The working version of the lock mechanism ensures the flexed bends are of even thickness throughout the spring’s body as well as while it is in motion. Each bend is spaced using circle packing to evenly distribute spaces between the uneven spaces due to the lock circle’s growing circumference. A circular relief is then cut into the joints to distribute the tension evenly around the bend arc. Without taking these measures, the bends are extremely prone to cracking because of uneven material stiffness and the resulting uneven bending and force distribution. For using laser cutting, the drawings accommodate for the width of the laser and uses it to provide spacing between the spring and its guiding curves. A tight fit is likely to result in the spring sticking to the sides. The lock springs are designed through five iterations, resulting in one with the desired proportions.
+
+    \end{enumerate}
+    
+
+
+
+    
+\end{enumerate}
+
+\section{LED lamp}
+\begin{enumerate}
+    \item Illumination needs\\
+The LED lamp is created to illuminate the boat’s relative position to the drowning party to facilitate rescue. Due to the possibility of the rescue occurring at night, there is a need for the drowning party to easily locate LiSa. The boat may operate under such risk for a considerable amount of time during its lifetime, which increases the risk of the drowning party not able to identify the boat’s location. The boat’s GPS is only accurate up to a 5 meters range, so it is necessary for the boat to be highly visible, in case of possible impaired vision, reduced visibility due to fog or rain, or the drowning party being partially under water at the time of the boat’s arrival.
+\item LED design\\
+The LED selected comes from an 8000-lumen car light LED with active air cooling. After testing, it is determined that the light is also suitable for underwater operation at least over 2 minutes with active cooling system on. This is tested in fresh water, so the LED’s ability to withstand salt water is unknown. Due to visible exposed circuits and metal, the design opts for an oil immersion design for a balance between waterproofing and heat dissipation. The transparent container for the LED protects the bulb from salt water while allowing the active air-cooling system to run in the oil, dissipating heat without contact with the outside environment.
+ Two of the main risks that pertain to the presence of an oil immersed LED are oil leakage, visibility, and the potential for objects or people to accidentally contact the lamp. To minimize this risk, the LED container is completely sealed up to the wire leading to eh bulb. The container is also placed up-side-down, with its oil containing vessel facing up to physically limit the possibility of oil spillage. The vessel is tightly fastened onto the boat, and shaped organically to minimize damage both to the boat and to any object it encounters, most notably the possible drowning party. The position of the lamp is also facing the surface of the ocean towards the drowning party to increase visibility. The laminated acrylic disperses and refracts the LED’s light so that only temporary discomfort may result from looking directly at it for the duration of the rescue. 
+\end{enumerate}
+
+\section{Handlebar}
+\begin{enumerate}
+
+\item Handlebar requirements\\
+To detect and determine when the party being rescued has latched onto the boat, a safe, intuitive, reliable approach is needed. These requirements resulted in a soft, silicone handlebar with an embedded end stop switch. The handlebar is placed within the safety of the semi-enclosed center space of the boat, with silicone that resist slight touches to the button but is extremely sensitive to being grasped. 
+To ensure the grasping force can trigger a button press at any point on the handlebar, an acrylic strip is embedded between the front silicone casing and the button, with its two ends fixed on two embedded supports. When grasped at any point, the acrylic bar deforms to nearly the same spot in the center. Till today, this always triggers a break in the circuit, indicating a button press. To ensure the rescued party is brought to safety, the boat is programmed to only run its motors only when the bar is depressed on its returning journey. 
+\item Handlebar manufacturing\\
+The handlebar is formed by layered silicone casting. First, the front layer of the silicone is filled and partly cured to ensure stability and adhesion. The acrylic bar is placed on top of this layered, then covered with acrylic. Then, two spacing bars, two support bars and the space bar for the switch is placed on top. The spacing bars are there to reserve space for future construction. The future placement of a switch requires a spot to be reserved so that the switch can be carefully placed in without being depressed permanently by the curing silicone. The other two spacing bars reserve two air pockets that ensure the bar can be easily depressed without the use of too much force. The spacing bars are taken out and their respective air pockets filled or covered as needed. The bar is then taken out of the mold and fastened onto the boat handle with two bolts. A piece of MDF is also embedded into the handlebar with two holes reserved for the bolts to ensure even force distribution around the area being penetrated and fastened by the bolts. 
+\end{enumerate}
+\end{document}
